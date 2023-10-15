@@ -1,0 +1,42 @@
+/* Write your CSS here */
+.sub-container {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+}
+.comments-app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 155px;
+}
+.comments-inputs-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.add-comment-button {
+  background-color: #0284c7;
+  color: #cbd2d9;
+  border-width: 0px;
+  height: 35px;
+  width: 125px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+.name-input {
+  margin-bottom: 10px;
+}
+.comments-image {
+  width: 250px;
+  height: 250px;
+}
+.comments-list {
+  list-style-type: none;
+  width: 70%;
+}
+.comm-count {
+  background-color: #0b69ff;
+  color: #cbd2d9;
+  font-family: Roboto;
+}
